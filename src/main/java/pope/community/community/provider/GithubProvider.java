@@ -30,8 +30,8 @@ public class GithubProvider {
             return split[0].split("=")[1];
         } catch (IOException e) {
             e.printStackTrace();
+            return null;
         }
-        return null;
     }
 
     public GithubUserDTO getUser(String accessToken) {

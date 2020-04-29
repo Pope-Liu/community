@@ -1,6 +1,12 @@
 server:
   port: 8081
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot?setTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: Lx13995833308
+    driver-class-name:
 
 
 #自定义全局变量
@@ -9,4 +15,4 @@ github:
     id: 7d2d27a506c799471334
     secret: 45f1fb0f305c5e7b6ddd2baf8d771575941ecf3a
 
-  redirect_uri: http://localhost:8081/callback;
+  redirect_uri: http://localhost:8081/callback
