@@ -1,4 +1,12 @@
 server:
   port: 8081
-  servlet:
-    context-path: "/springboot/"
+
+
+
+#自定义全局变量
+github:
+  client:
+    id: 7d2d27a506c799471334
+    secret: 45f1fb0f305c5e7b6ddd2baf8d771575941ecf3a
+
+  redirect_uri: http://localhost:8081/callback;
